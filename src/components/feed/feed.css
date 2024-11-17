@@ -1,0 +1,30 @@
+/* Feed layout */
+.feed {
+    flex: 5.5;
+}
+
+.feedWrapper {
+    padding: 20px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .feed {
+        flex: 4; 
+    }
+
+    .feedWrapper {
+        padding: 2%; 
+    }
+}
+
+/* Extra small screens (mobile) */
+@media screen and (max-width: 480px) {
+    .feed {
+        flex: 3; 
+    }
+
+    .feedWrapper {
+        padding: 10px; 
+    }
+}
