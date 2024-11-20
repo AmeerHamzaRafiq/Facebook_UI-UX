@@ -1,16 +1,18 @@
-/* Feed layout */
 .feed {
     flex: 5.5;
+    margin-top: 20px;
+    width: 100%; 
 }
 
 .feedWrapper {
-    padding: 20px;
+    padding: 20px; 
 }
 
-/* Mobile Responsiveness */
+/* Tablet and smaller screens */
 @media screen and (max-width: 768px) {
     .feed {
         flex: 4; 
+        margin-top: 15px; 
     }
 
     .feedWrapper {
@@ -18,13 +20,15 @@
     }
 }
 
-/* Extra small screens (mobile) */
+/* Mobile screens */
 @media screen and (max-width: 480px) {
     .feed {
         flex: 3; 
+        margin-top: 10px; 
     }
 
     .feedWrapper {
         padding: 10px; 
     }
 }
+

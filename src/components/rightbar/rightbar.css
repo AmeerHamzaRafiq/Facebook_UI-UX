@@ -1,46 +1,12 @@
-/* Rightbar layout */
-.rightbar {
-    flex: 3.5;
-}
+Rightbar layout
 
 .rightbarWrapper {
-    padding: 20px 20px 0 0;
-}
-
-/* Birthday Section */
-.birthdayContainer {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.birthdayImg {
-    height: 40px;
-    width: 40px;
-    margin-right: 15px;
-    border-radius: 50%;
-}
-
-.birthdayText {
-    font-weight: 300;
-    font-size: 14px;
-    color: #333;
-}
-
-/* Ad Section */
-.rightbarAd {
-    width: 100%;
-    border-radius: 10px;
-    margin: 30px 0;
-}
-
-.rightbarAd img {
-    width: 100%;
-    border-radius: 10px;
+    padding: 100px 100px 0 0;
 }
 
 /* Rightbar Title */
 .rightbarTitle {
+    padding-top: 15%;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -107,85 +73,7 @@
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     .rightbar {
-        flex: 1;
-    }
-
-    .rightbarWrapper {
-        padding: 15px;
-    }
-
-    .birthdayContainer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .birthdayImg {
-        margin-bottom: 10px;
-    }
-
-    .rightbarAd {
-        margin: 20px 0;
-    }
-
-    .rightbarTitle {
-        font-size: 16px;
-        margin-bottom: 8px;
-    }
-
-    .rightbarFollowings {
-        justify-content: flex-start;
-    }
-
-    .rightbarFollowing {
-        width: 80px;
-        margin-right: 15px;
-    }
-
-    .rightbarFollowingImg {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 5px;
-    }
-
-    .rightbarFollowing span {
-        font-size: 10px;
-    }
-
-    .rightbarInfoItem {
-        font-size: 12px;
-        margin-bottom: 8px;
+        display: none; 
     }
 }
 
-/* Extra small screens (mobile) */
-@media screen and (max-width: 480px) {
-    .rightbarWrapper {
-        padding: 10px;
-    }
-
-    .birthdayText {
-        font-size: 12px;
-    }
-
-    .rightbarTitle {
-        font-size: 14px;
-    }
-
-    .rightbarFollowings {
-        flex-direction: column;
-    }
-
-    .rightbarFollowing {
-        width: 60px;
-        margin-bottom: 15px;
-    }
-
-    .rightbarFollowingImg {
-        width: 50px;
-        height: 50px;
-    }
-
-    .rightbarFollowing span {
-        font-size: 10px;
-    }
-}

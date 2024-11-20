@@ -7,12 +7,11 @@ export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
     return (
       <>
-        <div className="birthdayContainer">
-          <img className="birthdayImg" src="assets/gift.png" alt="" />
-          <span className="birthdayText">
-            <b>Pola foster</b> and <b>3 others</b> have a birthday today.
-          </span>
-        </div>
+        <img className="birthdayImg" src="assets/gift.png" alt="" />
+        <span className="birthdayText">
+          <b>Pola foster</b> and <b>3 others</b> have a birthday today.
+        </span>
+
         <img className="rignhtbarAd" src="assets/ad.png" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarfriendList">
@@ -43,7 +42,6 @@ export default function Rightbar({ profile }) {
           </div>
         </div>
 
-
         <h4 className="rightbarTitle">User friends</h4>
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
@@ -64,14 +62,6 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="https://i.postimg.cc/BnvkXBY6/IMG-20240913-WA0002.jpg"
-              alt=""
-              className="rightbarFollowingImg"
-            />
-            <span className="rightbarFollowingname">Anas</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img
               src="https://i.postimg.cc/4dvB8YLq/IMG-20240725-WA0011.jpg"
               alt=""
               className="rightbarFollowingImg"
@@ -84,15 +74,15 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingname">Hamza</span>
+            <span className="rightbarFollowingname">Hamza Rafiq</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/persons/6.jpg"
+              src="https://i.pinimg.com/736x/87/54/49/875449db3706e2eedc90f633ba760fc0.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingname">Johnathan Carter</span>
+            <span className="rightbarFollowingname">s___k</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -100,7 +90,31 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingname">syeda Kinza</span>
+            <span className="rightbarFollowingname">syeda</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="https://i.postimg.cc/BnvkXBY6/IMG-20240913-WA0002.jpg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingname">Anas</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="https://i.postimg.cc/1RNVzM3R/waqas-id.jpg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingname">waqas naseem</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="https://media.istockphoto.com/id/165652387/photo/winner.jpg?s=612x612&w=0&k=20&c=mpYuIlFxXzQcdEmFiNR5ErpWMvLFSacQS_AbbdOACFU="
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingname">Muneeb</span>
           </div>
         </div>
       </>

@@ -3,11 +3,7 @@ import "./topbar.css";
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 
 export default function Topbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
 
   return (
     <div className="topbarContainer">
@@ -46,10 +42,10 @@ export default function Topbar() {
           src="https://i.postimg.cc/rynxxJzt/AMEER-HAMZA-Copy.jpg"
           alt="Profile"
           className="topbarImg"
-          onClick={toggleMenu}
+         
         />
       </div>
-      <div className={`mobileMenu ${menuOpen ? "show" : ""}`}>
+      <div className="mobileMenu" >
         <a href="#">Home</a>
         <a href="#">Timeline</a>
         <a href="#">Profile</a>

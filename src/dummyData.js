@@ -3,18 +3,17 @@ export const Users = [
     id: 1,
     profilePicture:
       "https://i.postimg.cc/Vs31FsDB/Screenshot-20240607-174356.jpg",
-    username: "syada Kinza",
+    username: "syada",
   },
   {
-    id: 2,
-    profilePicture:
-      "https://www.shutterstock.com/image-photo/happy-young-man-sitting-home-260nw-2248472067.jpg",
-    username: "Shayan Friend",
+    id: 9,
+    profilePicture: "https://i.postimg.cc/rpk4fQBy/IMG-20231115-WA0074.jpg",
+    username: "Hamza Rahiq",
   },
   {
     id: 3,
     profilePicture:
-      "https://www.shutterstock.com/image-photo/young-guy-enjoying-computer-game-260nw-364905686.jpg",
+      "https://quranicwisdom.pk/wp-content/uploads/2023/08/20230811095254_fpdl.in_man-reads-book-hotel-room_867452-1033_normal-1-min.jpg",
     username: "Mubashir Qari sahab",
   },
   {
@@ -30,9 +29,13 @@ export const Users = [
   },
   {
     id: 10,
-    profilePicture:
-      "https://do.lolwot.com/wp-content/uploads/2015/08/20-things-that-single-people-can-relate-to-1.jpg",
+    profilePicture: "https://i.postimg.cc/VLdGvxbr/IMG-20230718-WA0002.jpg",
     username: "Waqas Rafiq",
+  },
+  {
+    id: 14,
+    profilePicture: "https://i.postimg.cc/1RNVzM3R/waqas-id.jpg",
+    username: "waqas naseem",
   },
   {
     id: 7,
@@ -45,23 +48,34 @@ export const Users = [
     username: "Bilal Rafiq",
   },
   {
-    id: 9,
-    profilePicture: "https://i.postimg.cc/rynxxJzt/AMEER-HAMZA-Copy.jpg",
-    username: "Ameer_Hamza",
-  },
-  {
     id: 6,
     profilePicture:
       "https://thumbs.dreamstime.com/b/man-watching-tv-7657022.jpg",
     username: "Hammad Friend",
   },
+  {
+    id: 2,
+    profilePicture:
+      "https://www.shutterstock.com/image-photo/happy-young-man-sitting-home-260nw-2248472067.jpg",
+    username: "Shayan Friend",
+  },
 ];
 
 export const Posts = [
   {
+    id: 11,
+    desc: "Praying for peace and justice for Palestine🤲💘",
+    photo:
+      "https://img.freepik.com/premium-photo/palestine-with-backdrop-smoke-palestinian-flag_1033529-769.jpg",
+    date: "11 month ago",
+    userId: 8,
+    like: 3932,
+    comment: 3029,
+  },
+  {
     id: 1,
-    desc: "pretty 🥰❤💖",
-    photo:"https://i.postimg.cc/25DzVsDF/465196668-460558316491447-6033644370803927698-n.jpg",
+    desc: "pretty girl🥰❤💖",
+    photo: "https://i.postimg.cc/ZRqtJqF2/kinaz.jpg",
     date: "5 mins ago",
     userId: 1,
     like: 332,
@@ -69,7 +83,7 @@ export const Posts = [
   },
   {
     id: 5,
-    desc: " Best moments",
+    desc: " Best moments 💝",
     photo: "https://i.postimg.cc/BZdpZRnn/IMG-20231130-WA0123.jpg",
     date: "1 week ago",
     userId: 10,
@@ -77,11 +91,29 @@ export const Posts = [
     comment: 1232,
   },
   {
-    id: 2,
+    id: 11,
+    desc: "Port Grand✔",
+    photo: "https://i.postimg.cc/Hsx03bpf/waqas-bhai.jpg",
+    date: "46 mins ago",
+    userId: 14,
+    like: 75,
+    comment: 40,
+  },
+  {
+    id: 12,
+    desc: "Embrace the present, for this life is a gift to be enjoyed💞",
+    photo: "https://i.postimg.cc/rmJ9hkKJ/IMG-20240725-WA0011.jpg",
+    date: "5 mins ago",
+    userId: 7,
+    like: 332,
+    comment: 39,
+  },
+  {
+    id: 13,
     desc: "MA SHA ALLAH 💖",
     photo: "assets/post/2.jpg",
     date: "15 mins ago",
-    userId: 9,
+    userId: 5,
     like: 2,
     comment: 1,
   },
@@ -105,8 +137,8 @@ export const Posts = [
   },
   {
     id: 7,
-    desc: "Brothers💖",
-    photo: "https://i.postimg.cc/ncWJLFQQ/IMG-20230718-WA0040.jpg",
+    desc: "Meri Jaan💖",
+    photo: "https://i.postimg.cc/pdPhsn8w/Snapchat-152944592.jpg",
     date: "5 hours ago",
     userId: 7,
     like: 239,

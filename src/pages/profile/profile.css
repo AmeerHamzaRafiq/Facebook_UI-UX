@@ -1,79 +1,94 @@
 .profile {
-    display: flex;
-    
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; 
 }
 
 .profileRight {
-    flex: 9;
+  flex: 9;
+  width: 100%; 
 }
 
 .profileCover {
-    height: 320px;
-    position: relative;
+  height: 320px;
+  position: relative;
+  width: 100%; 
 }
 
 .profileCoverImg {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .profileUserImg {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 150px;
-    border: 3px solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
 }
 
 .profileInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
 }
 
 .profileInfoName {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .profileInfoDesc {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .profilerightBottom {
-    display: flex;
+  display: flex;
+  width: 100%; 
 }
-
-
 
 
 @media (max-width: 768px) {
-    .profileCoverImg {
-        height: 200px; 
-    }
+  .profile {
+      flex-direction: column; 
+  }
 
-    .profileUserImg {
-        width: 100px; 
-        height: 100px;
-        top: 140px; 
-    }
+  .profileCover {
+      height: auto; 
+  }
 
-    .profileInfoName {
-        font-size: 18px; 
-    }
+  .profileCoverImg {
+      height: 200px; 
+  }
 
-    .profileInfoDesc {
-        font-size: 14px; 
-    }
+  .profileUserImg {
+      width: 100px; 
+      height: 100px;
+      top: 140px; 
+  }
 
-    .profilerightBottom {
-        flex-direction: column; 
-        align-items: center;
-    }
+  .profileInfoName {
+    margin-top: 13%;
+      font-size: 18px; 
+  }
+
+  .profileInfoDesc {
+      font-size: 14px; 
+  }
+
+  .profilerightBottom {
+      flex-direction: column; 
+      align-items: center;
+  }
 }
+
+
+
